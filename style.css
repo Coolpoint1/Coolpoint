@@ -1,0 +1,72 @@
+:root {
+    --main-bg-color: brown;
+    --orange: #ff7800;
+    --black: #130f40;
+    --light: #666;
+    --border-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.5);
+    --outline: .1rem solid rgb(0, 0, 0, .1);
+    --outline-hover: .2rem solid black;
+    --black1:#222;
+    --black2:#999;
+    --white:#eee;
+    --pink::#ef9a9a!important
+
+
+}
+
+
+body
+{
+	margin: 0;
+	height: 100%;
+}
+
+.custom-bg
+{
+	background:#ef9a9a!important;
+	
+}
+
+.admin .card{
+	border: 1px solid #ef9a9a;
+}
+
+.card-columns:hover{
+	background:cover;
+	cursor:pointer;
+}
+
+.card:hover{
+	background:cover;
+	cursor:pointer;
+}
+
+.list-group-item-action active
+{
+	background:#ef9a9a!important;
+	border-color:#ef9a9a!important;
+}
+
+.mid-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+    
+ }
+ 
+ .non-underline-link{
+   text-decoration: none !important;
+}
+
+.bcontent {
+            margin-top: 10px;
+        }
+        
+        .modal-size {
+    max-width: 80% !important;
+}
+    
+  
+        
