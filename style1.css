@@ -1,0 +1,60 @@
+ :root {
+    --main-bg-color: brown;
+    --orange: #ff7800;
+    --black: #130f40;
+    --light: #666;
+    --border-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.5);
+    --outline: .1rem solid rgb(0, 0, 0, .1);
+    --outline-hover: .2rem solid black;
+    --black1:#222;
+    --black2:#999;
+    --white:#eee;
+    --pink:#EF9A9A;
+    --bgg:linear-gradient(182deg, #71b7e6, #9b59b6);
+
+
+}
+ .container {
+    text-align: center;
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    color: var(--black);
+    font: bold;
+}
+
+.container span {
+    background-color: var(--orange);
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 3rem;
+    clip-path: polygon(100% 0%, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+ .d-block{
+	height:350px;
+	width:947px;
+} 
+.col-md-2 a{
+	text-decoration:none;
+} 
+.col-md-3 a{
+	text-decoration:none;
+}
+.col-md-3 p{
+	color:white;
+}
+.col-md-3 p:hover{
+	color:#EF9A9A;
+	height:22px
+}
+.bg{
+	background:linear-gradient(182deg, #71b7e6, #9b59b6);
+}
+
+
+  
+  
+  
+  
+ 
